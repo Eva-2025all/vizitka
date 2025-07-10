@@ -22,19 +22,14 @@
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
       padding: 30px 20px;
       max-width: 420px;
-      width: 90%;
+      width: 100%;
       text-align: center;
     }
 
-    .logo-banner {
-      margin-bottom: 20px;
-    }
-
     .logo-banner img {
-      width: 180px;              /* увеличено */
+      width: 200px;
       height: auto;
-      display: block;
-      margin: 0 auto;
+      margin-bottom: 20px;
     }
 
     h1 {
@@ -58,7 +53,6 @@
       border-radius: 10px;
       font-size: 18px;
       font-weight: bold;
-      color: white;
       text-decoration: none;
       transition: transform 0.2s ease;
     }
@@ -66,44 +60,33 @@
     .button span {
       margin-right: 10px;
       font-size: 20px;
-      width: 24px;
-      display: inline-flex;
-      justify-content: center;
     }
 
-    .button:hover {
-      transform: scale(1.03);
+    .telegram {
+      background-color: #0088cc;
+      color: white;
     }
-
-    .telegram { background-color: #0088cc; }
-    .whatsapp { background-color: #25D366; }
-    .call { background-color: #f44336; }
+    .whatsapp {
+      background-color: #25D366;
+      color: white;
+    }
+    .call {
+      background-color: #f44336;
+      color: white;
+    }
+    .call span {
+      color: #25D366;
+    }
     .reviews {
       background-color: #ffc107;
       color: black;
-    }
-
-    @media (max-width: 480px) {
-      .card {
-        padding: 20px 15px;
-      }
-      h1 {
-        font-size: 22px;
-      }
-      .button {
-        font-size: 16px;
-        padding: 12px;
-      }
-      .button span {
-        font-size: 18px;
-      }
     }
   </style>
 </head>
 <body>
   <div class="card">
     <div class="logo-banner">
-      <img src="banner.png" alt="Светлая Полоса — логотип" />
+      <img src="баннер.png" alt="Светлая Полоса — логотип" />
     </div>
 
     <h1>Артур Юсупов</h1>
@@ -127,4 +110,3 @@
   </div>
 </body>
 </html>
-
