@@ -32,8 +32,11 @@
 
     .logo-banner img {
       width: 100%;
-      max-width: 180px; /* увеличено с ~120 */
+      max-width: 220px; /* увеличено */
       height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     h1 {
@@ -52,7 +55,7 @@
       justify-content: center;
       width: 100%;
       padding: 14px;
-      margin: 10px 0;
+      margin: 10px auto; /* центрирование */
       border: none;
       border-radius: 10px;
       font-size: 18px;
@@ -60,6 +63,7 @@
       color: white;
       text-decoration: none;
       transition: transform 0.2s ease;
+      max-width: 100%;
     }
 
     .button span {
@@ -119,6 +123,11 @@
 
     <a class="button reviews" href="https://yandex.ru/maps/org/ayur_belaya_polosa/84159417468/reviews" target="_blank">
       <span>⭐</span> Отзывы
+    </a>
+  </div>
+</body>
+</html>
+
     </a>
   </div>
 </body>
