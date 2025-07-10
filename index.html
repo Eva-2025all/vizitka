@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Светлая Полоса — Законное избавление от долгов</title>
+  <title>Артур Юсупов — Законное избавление от долгов</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -26,15 +26,31 @@
       text-align: center;
     }
 
-    .logo-banner {
+    .brand {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       margin-bottom: 20px;
-      text-align: center;
     }
 
-    .logo-banner img {
-      width: 100%;
-      max-width: 300px;
-      height: auto;
+    .brand img {
+      width: 50px;
+      height: 50px;
+      margin-right: 12px;
+    }
+
+    .brand-text {
+      text-align: left;
+    }
+
+    .brand-text .title {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .brand-text .subtitle {
+      font-size: 14px;
+      color: #555;
     }
 
     h1 {
@@ -92,16 +108,33 @@
         font-size: 16px;
         padding: 12px;
       }
+
+      .brand {
+        flex-direction: column;
+      }
+
+      .brand img {
+        margin-right: 0;
+        margin-bottom: 8px;
+      }
+
+      .brand-text {
+        text-align: center;
+      }
     }
   </style>
 </head>
 <body>
   <div class="card">
-    <div class="logo-banner">
+    <div class="brand">
       <img src="banner.png" alt="Светлая Полоса — логотип" />
+      <div class="brand-text">
+        <div class="title">Светлая Полоса</div>
+        <div class="subtitle">Банкротство физических лиц</div>
+      </div>
     </div>
 
-    <h1>Светлая Полоса</h1>
+    <h1>Артур Юсупов</h1>
     <p>Законное избавление от долгов</p>
 
     <a class="button telegram" href="https://t.me/artur_bankrotstvo_chestno" target="_blank">
