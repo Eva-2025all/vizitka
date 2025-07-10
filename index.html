@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Артур Юсупов — Законное избавление от долгов</title>
+  <title>Артур Юсупов — Честное избавление от долгов</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,32 +15,30 @@
       justify-content: center;
       min-height: 100vh;
     }
-
     .card {
       background: white;
       border-radius: 20px;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
       padding: 30px 20px;
       max-width: 420px;
       width: 90%;
       text-align: center;
     }
-
-    .logo-banner img {
-      width: 160px;
+    .logo-banner {
       margin-bottom: 20px;
     }
-
+    .logo-banner img {
+      width: 160px; /* увеличено */
+      height: auto;
+    }
     h1 {
       margin: 10px 0 5px;
-      font-size: 26px;
+      font-size: 24px;
     }
-
     p {
       color: #666;
       margin-bottom: 25px;
     }
-
     .button {
       display: flex;
       align-items: center;
@@ -56,15 +54,12 @@
       text-decoration: none;
       transition: transform 0.2s ease;
     }
-
     .button span {
       margin-right: 8px;
     }
-
     .button:hover {
       transform: scale(1.03);
     }
-
     .telegram { background-color: #0088cc; }
     .whatsapp { background-color: #25D366; }
     .call { background-color: #f44336; }
@@ -72,23 +67,19 @@
       background-color: #ffc107;
       color: black;
     }
-
     @media (max-width: 480px) {
       .card {
         padding: 20px 15px;
       }
-
       h1 {
         font-size: 22px;
       }
-
       .button {
         font-size: 16px;
         padding: 12px;
       }
-
       .logo-banner img {
-        width: 120px;
+        width: 140px; /* слегка меньше на мобильных */
       }
     }
   </style>
@@ -98,25 +89,21 @@
     <div class="logo-banner">
       <img src="баннер.png" alt="Светлая Полоса — логотип" />
     </div>
-
     <h1>Артур Юсупов</h1>
-    <p>Законное избавление от долгов</p>
-
+    <p>Честно избавляю от долгов</p>
     <a class="button telegram" href="https://t.me/artur_bankrotstvo_chestno" target="_blank">
       <span>📨</span> Telegram
     </a>
-
     <a class="button whatsapp" href="https://wa.me/79953336105" target="_blank">
       <span>💬</span> WhatsApp
     </a>
-
     <a class="button call" href="tel:+79953336105">
       <span>📞</span> Позвонить
     </a>
-
     <a class="button reviews" href="https://yandex.ru/maps/org/ayur_belaya_polosa/84159417468/reviews" target="_blank">
       <span>⭐</span> Отзывы
     </a>
   </div>
 </body>
 </html>
+
